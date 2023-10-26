@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!--Header-->
+    <section id="header">
+        <header class="py-3 mb-0 pb-0">
+            <div class="container-fluid">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none navbar">
+                    <div class="nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-flower1 nav-link active" viewBox="0 0 16 16">
+                            <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826zM8 1a1 1 0 0 0-.998 1.03l.01.091c.012.077.029.176.054.296.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a4.997 4.997 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1zM2 9l.03-.002.091-.01a4.99 4.99 0 0 0 .296-.054c.241-.049.542-.122.887-.213a60.59 60.59 0 0 0 2.314-.676L5.762 8l-.144-.045a60.59 60.59 0 0 0-2.314-.676 16.705 16.705 0 0 0-.887-.213 4.99 4.99 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2zm7 5-.002-.03a5.005 5.005 0 0 0-.064-.386 16.398 16.398 0 0 0-.213-.888 60.582 60.582 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a4.996 4.996 0 0 0-.064.386L7 14a1 1 0 1 0 2 0zm-5.696-2.134.025-.017a5.001 5.001 0 0 0 .303-.248c.184-.164.408-.377.661-.629A60.614 60.614 0 0 0 5.96 9.23l.103-.111-.147.033a60.88 60.88 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5.063 5.063 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027c.01-.02.021-.048.036-.084a5.09 5.09 0 0 0 .102-.283c.078-.233.165-.53.258-.874a60.6 60.6 0 0 0 .572-2.343l.033-.147-.11.102a60.848 60.848 0 0 0-1.743 1.667 17.07 17.07 0 0 0-.629.66 5.06 5.06 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366zm9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a4.951 4.951 0 0 0-.303.248 16.69 16.69 0 0 0-.661.629A60.72 60.72 0 0 0 10.04 6.77l-.102.111.147-.033a60.6 60.6 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a4.993 4.993 0 0 0 .367-.138.53.53 0 0 0 .027-.014zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027c-.01.02-.021.048-.036.084a5.09 5.09 0 0 0-.102.283c-.078.233-.165.53-.258.875a60.62 60.62 0 0 0-.572 2.342l-.033.147.11-.102a60.848 60.848 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5.001 5.001 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366zM14 9a1 1 0 0 0 0-2l-.03.002a4.996 4.996 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a4.996 4.996 0 0 0 .386.064L14 9zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035c.072.03.166.064.283.103.233.078.53.165.874.258a60.88 60.88 0 0 0 2.343.572l.147.033-.103-.111a60.584 60.584 0 0 0-1.666-1.742 16.705 16.705 0 0 0-.66-.629 4.996 4.996 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366zm2.196-1.196.017.025a4.996 4.996 0 0 0 .248.303c.164.184.377.408.629.661A60.597 60.597 0 0 0 6.77 5.96l.111.102-.033-.147a60.602 60.602 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5.006 5.006 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1zm9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a60.619 60.619 0 0 0-2.342-.572l-.147-.033.102.111a60.73 60.73 0 0 0 1.667 1.742c.253.252.477.465.66.629a4.946 4.946 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366zm-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5.065 5.065 0 0 0-.248-.303 16.705 16.705 0 0 0-.629-.661A60.462 60.462 0 0 0 9.23 10.04l-.111-.102.033.147a60.6 60.6 0 0 0 .572 2.342c.093.345.18.642.258.875a4.985 4.985 0 0 0 .138.367.575.575 0 0 0 .014.027zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                      </svg>        
+                    </div>       
+                </a>
+                <ul class="nav col-lg-auto me-lg-auto mb-3 justify-content-center mb-md-0">
+                  <li class="nav-item">
+                    <a href="#Home" class="nav-link active" aria-current="page">Home</a></li>
+                  <li class="nav-item">
+                    <a href="#About" class="nav-link active" aria-current="page">About</a></li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">Skills</a></li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">Projects</a></li>
+                  <li class="nav-item">
+                    <a href="https://mbrazdis.github.io/Resume/" class="nav-link active" aria-current="page">CV</a></li>
+
+                </ul>
+                </div>
+              </div>
+            </div>
+
+    
+            <!--Title--> 
+            <section class="titlu py-3 mb-0 pb-0">
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6" style="justify-content: flex-start;">
+                        <img src="./assets / image//wp4418686-the-moon-wallpapers.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" height="2000px">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3 ">I'm Mihail</h1>
+                        <p class="lead">A Web Developer</p>
+                    </div>
+                    </div>
+                </div>
+            
+        </header>
+    </section>
+    <!--Description-->
+    <section class="description container-fluid py-3 mb-0 pb-0">
+        <div class="container col-xxl-8 px-4 py-5">
+
+        
+
+
+            <h2 class="display-5 border-bottom">Mihail Brazdis</h2>
+            <div class="col-lg-12 ">
+              <p class="lead mb-4 ">Energetic, non-conformist IT enthusiast with a passion for technology and music. Seeking a fulfilling Full Stack Developer career. Strong multitasking, risk assessment, and communication skills. Aspiring to join an international company to enhance technical and management abilities.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-">
+                <button type="button" class="btn-contact btn btn-outline-light  btn-lg px-4 gap-3" >Contact</button>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <section class="skills container-fluid py-3 mb-0 pb-0">
+        <div class="container col-xxl-8 px-4 py-5" id="icon-grid">
+            <h2 class="display-5 border-bottom">Skills</h2>
+        
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+              <div class="col d-flex align-items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-book flex-shrink-0 me-2" viewBox="0 0 16 16" style="color: #2C2E43;">
+                    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                  </svg>                <div>
+                  <h3 class="mb-0 fs-4 pb-2 fw-bold">Soft skills</h3>
+                  <ul class="px-0 pb-4">
+                    <li>Problem solving</li>
+                    <li>Creativity</li>
+                    <li>Fast learning</li>
+                    <li>Time management</li>
+                    <li>Critical thinking</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-code flex-shrink-3 me-1" viewBox="0 0 16 16" style="color: #2C2E43;">
+                    <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+                  </svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 pb-2">Hard skills</h3>
+                  <ul class="px-0 pb-4">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>OOPs</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-pc-display-horizontal flex-shrink-3 me-2" viewBox="0 0 16 16" style="color: #2C2E43;">
+                    <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
+                </svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 pb-2">Systems</h3>
+                  <ul class="px-0 pb-4">
+                    <li>Linux</li>
+                    <li>MacOS</li>
+                    <li>Windows</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-person-arms-up flex-shrink-3 me-0" viewBox="0 0 16 16" style="color: #2C2E43;">
+                    <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
+                    <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.492 1.492 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.72.72 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.72.72 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+                  </svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 pb-2">Interests</h3>
+                  <ul class="px-0 pb-4">
+                    <li>Technology</li>
+                    <li>Arts</li>
+                    <li>Coffee</li>
+                    <li>Nature</li>
+                    <li>Cycling</li>
+                  </ul>
+                </div>
+              </div>
+               
+            </div>
+          </div>
+    </section>
+    <!--Projects-->
+    <section class="projects container-fluid py-0 mb-0 pb-0">
+        <div class="container col-xxl-8 px-4 py-5" id="custom-cards">
+            <h2 class="display-5 border-bottom">Projects</h2>
+        
+            <div class="row row-cols-1 row-cols-xl-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets / image/img22.jpg')">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-1 display-5 lh-1 fw-bold">Portflio</h3>
+                    <h4>Website using HTML, CSS & Bootstrap</h4>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML"  height="32" class="px-1">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"  height="32" class="px-1">
+                        <img src="https://camo.githubusercontent.com/fa13fd3d5737d87e0ece5135ec7834edf37f2df05674a2892a5d619334b94bcb/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e332f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" alt="Bootstrap"  height="32" class=" px-1 pt-1">
+                    </li>
+                    <li class="d-flex">
+                        <button type="button" class="btn-contact btn btn-outline-light  btn-md px-4 gap-3" >Check</button>
+                    </li>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </span>
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets / image/img33.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-1 display-5 lh-1 fw-bold">TinDog</h3>
+                    <h4>Website using HTML & CSS</h4>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML"  height="32" class="px-1">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"  height="32" class="px-1">
+                      </li>
+                      <li class="d-flex">
+                        <button type="button" class="btn-contact btn btn-outline-light  btn-md px-4 gap-3" >Check</button>
+                    </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets / image/img44.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-1 display-5 lh-1 fw-bold">Mondrian</h3>
+                    <h4>A piece of art using HTML & CSS</h4>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML"  height="32" class="px-1">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"  height="32" class="px-1">
+                      </li>
+                      <li class="d-flex">
+                        <button type="button" class="btn-contact btn btn-outline-light  btn-md px-4 gap-3" >Check</button>
+                    </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--Contact-->
+    <section class="contact container-fluid py-0 mb-0 pb-0">
+        <div class="container col-xxl-8 px-4 py-5">
+            <h2 class=" border-bottom display-5">Contact</h2>
+        
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+              <div class="col d-flex flex-column align-items-start gap-2">
+                <h3 class="fw-bold">Get in touch</h2>
+                <p class="">Looking for more information or interested in working with me?
+                    Kindly email or call. Also check out more in my social media handle.</p>
+              </div>
+        
+              <div class="contacte d-flex flex-column flex-md-row p-2 gap-4 py-md-5 align-items-center justify-content-center" >
+                <div class="list-group" >
+                  <a href="https://www.linkedin.com/in/mihail-brazdis-436103181" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true" style="background-color: #595260;">
+                    <img src="https://avatars.githubusercontent.com/u/357098?s=200&v=4" alt="twbs" width="32" height="32" class=" flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <div>
+                        <h6 class="mb-0">Linkedin</h6>
+                      </div>
+
+                    </div>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true" style="background-color: #595260;">
+                    <img src="https://raw.githubusercontent.com/github/explore/8f19e4dbbf13418dc1b1d58bb265953553c15a46/topics/gmail/gmail.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <div>
+                        <h6 class="mb-0">Email</h6>
+                        <p class="mb-0 opacity-75">mbrazdis@gmail.com</p>
+                      </div>
+
+                    </div>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true" style="background-color: #595260;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/10070/10070428.png?ga=GA1.1.567902530.1695557376" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <div>
+                        <h6 class="mb-0">Phone</h6>
+                        <p class="mb-0 opacity-75">+40 728 867 105</p>
+                      </div>
+
+                    </div>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true" style="background-color: #595260;">
+                    <img src="https://cdn-icons-png.flaticon.com/128/819/819814.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <div>
+                        <h6 class="mb-0">Adress</h6>
+                        <p class="mb-0 opacity-75">Bucharest, Romania</p>
+                      </div>
+
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+</body>
+</html>

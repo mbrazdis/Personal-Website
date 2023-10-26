@@ -1,0 +1,95 @@
+.titlu {
+  background-color: #2C2E43;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cutive Mono', monospace;
+  margin-top: 0;
+}
+header {
+  background-color: #595260;
+  margin-bottom: 0;
+}
+.description {
+background-color: #595260;
+}
+.projects {
+  background-color: #595260;
+}
+.contact {
+  background-color: #2C2E43;
+}
+.contacte {
+  background-color: #2C2E43;
+}
+
+.nav-link.active {
+  color: #FFD523;
+}
+.nav-item a:hover {
+  color: #B2B1B9;
+  fill:#B2B1B9;
+}
+.bi:hover {
+  fill:#B2B1B9;
+}
+h1, h2 {
+  color: #FFD523;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cutive Mono', monospace;
+  border-color: #2C2E43;
+}
+h3, h4 {
+  color: #B2B1B9;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cutive Mono', monospace;
+}
+.lead{
+  color: #B2B1B9;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cutive Mono', monospace;
+  
+}
+.img-fluid{
+  max-width: 100%;
+} 
+.btn-contact {
+  --bs-btn-color: #FFD523;
+  --bs-btn-border-color: #FFD523;
+  --bs-btn-hover-bg: #FFD523;
+  --bs-btn-hover-color: #2C2E43;
+  --bs-btn-hover-border-color: #2C2E43;
+  --bs-btn-active-bg: #FFD523;
+  --bs-btn-active-color: #2C2E43;
+  --bs-btn-active-border-color: #2C2E43;
+}
+.skills {
+  background-color: #595260;
+}
+p {
+  color: #B2B1B9;
+}
+li {
+  color:#B2B1B9;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cutive Mono', monospace;
+  display: flex;
+  justify-content: flex-start;
+}
+h4 {
+  font-size: medium;
+}
+.hyperspan {
+
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:1;
+}
+.list-group-action {
+  background-color: #2C2E43;
+}
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
